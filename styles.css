@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  padding: 2%;
+  box-shadow: 0.5px 2px 4px rgba(0, 0, 0, 0.36);
+  border-radius: 2%;
+}
+
+main * {
+  margin: 3%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  width: 45%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.line {
+  margin: 0 auto;
+  width: 40%;
+  height: 5px;
+  background-color: rgb(35, 163, 255);
+  border-radius: 2px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+#job {
+  color: rgb(35, 163, 255);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#review-text {
+  font-size: 18px;
+  color: #333;
+}
+
+#prev-btn, #next-btn {
+  width: 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#random-btn {
+  border: 1px solid rgb(35, 163, 255);
+  border-radius: 5%;
+  padding: 2%;
+  background-color: rgb(35, 163, 255);
+  color: #fff;
+}
